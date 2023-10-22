@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "incremental": true,
+    "module": "commonjs",
+    // Node.js >= 19 supports almost 100% of ES2018 (https://node.green/#ES2018)
+    "target": "es2018",
+    "lib": [
+      "es2018",
+      // error Cannot find name 'AsyncIterable'.
+      "esnext.asynciterable"
+    ],
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": "lib",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    "noUnusedLocals": true,
+    "importHelpers": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules"],
+}

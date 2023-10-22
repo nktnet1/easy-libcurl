@@ -1,0 +1,57 @@
+{
+  "name": "easy-libcurl",
+  "version": "1.0.0",
+  "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean dist, up-to-date and minimal dependencies.",
+  "keywords": [
+    "node-curl",
+    "curl",
+    "libcurl",
+    "easy-libcurl",
+    "node-libcurl",
+    "axios",
+    "request"
+  ],
+  "homepage": "https://github.com/nktnet1/easy-libcurl",
+  "bugs": {
+    "url": "https://github.com/nktnet1/easy-libcurl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nktnet1/easy-libcurl.git"
+  },
+  "license": "MIT",
+  "author": "Khiet Tam Nguyen",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "binary": {
+    "module_name": "node_libcurl",
+    "node_libcurl_version": "3.0.0",
+    "module_path": "./lib/binding/",
+    "remote_path": "./v3.0.0/",
+    "package_name": "{module_name}-v3.0.0-{node_abi}-{platform}-{arch}-{libc}.tar.gz",
+    "host": "https://github.com/JCMais/node-libcurl/releases/download"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "cleanyarn": "rm -rf ./lib/binding ./build ./dist ./node_modules ./tsconfig.tsbuildinfo ./yarn.lock && yarn",
+    "build": "tsc",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "1.0.11",
+    "nan": "^2.18.0",
+    "node-gyp": "9.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^14.14 || >=16"
+  }
+}

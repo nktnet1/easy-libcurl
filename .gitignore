@@ -1,0 +1,36 @@
+node_modules
+.DS_Store
+.idea
+npm-debug.log
+examples/cacert*
+wallaby.json
+lib/binding
+
+# docs override
+lib/**/*.doc.ts
+
+logs/
+
+debug/
+Debug/
+release/
+Release/
+.vscode/
+test/curl/upload.png
+
+# coverage
+.nyc_output/
+coverage/
+
+# build
+dist
+build
+
+# Ts
+tsconfig.tsbuildinfo
+
+yarn-error.log
+
+# Custom for easy-libcurl
+tam
+jest.config.ts
