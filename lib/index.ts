@@ -11,3 +11,4 @@
 export { Curl } from './Curl'
 export { Easy } from './Easy'
 export { CurlCode } from './enum/CurlCode'
+export { CurlOption } from './generated/CurlOption'
