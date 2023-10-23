@@ -1,6 +1,6 @@
 {
   "name": "easy-libcurl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean dist, up-to-date and minimal dependencies.",
   "keywords": [
     "node-curl",
@@ -44,7 +44,8 @@
   "dependencies": {
     "@mapbox/node-pre-gyp": "1.0.11",
     "nan": "^2.18.0",
-    "node-gyp": "9.4.0"
+    "node-gyp": "9.4.0",
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
