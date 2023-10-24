@@ -1,4 +1,4 @@
-# [easy-libcurl](https://github.com/nktnet1/easy-libcurl)
+# [![Easy Libcurl](logo.svg)](https://github.com/nktnet1/sync-request-curl)
 
 Please support @JCMais's original work on **node-libcurl**:
 - https://github.com/JCMais/node-libcurl
