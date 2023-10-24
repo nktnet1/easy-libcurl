@@ -22,9 +22,9 @@ npm install easy-libcurl
 
 ## 2. Usage
 
-The Easy API is available in node-libcurl's [documentation](https://node-libcurl-docs.netlify.app/classes/_lib_easy_.easy).
+The Easy API is available in **node-libcurl**'s [documentation](https://node-libcurl-docs.netlify.app/classes/_lib_easy_.easy).
 
-An example usage is provided in node-libcurl's [examples/02-easy.js](https://github.com/JCMais/node-libcurl/blob/887949944dce38a19ee4ecbc5854aabe757e2a46/examples/02-easy.js).
+An example usage is provided in **node-libcurl**'s [examples/02-easy.js](https://github.com/JCMais/node-libcurl/blob/887949944dce38a19ee4ecbc5854aabe757e2a46/examples/02-easy.js).
 
 ## 3. License
 
@@ -59,8 +59,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 </details>
-
-<br />
 
 <details closed>
 <summary>easy-libcurl (click to view)</summary>
