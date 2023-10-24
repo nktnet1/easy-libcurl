@@ -1,7 +1,7 @@
 {
   "name": "easy-libcurl",
-  "version": "1.0.3",
-  "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean dist, up-to-date and minimal dependencies.",
+  "version": "1.0.4",
+  "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean distributable, up-to-date and minimal dependencies.",
   "keywords": [
     "curl",
     "http",
@@ -53,7 +53,7 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@types/node": "^20.8.7",
+    "@types/node": "^20.8.8",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
