@@ -1,8 +1,10 @@
 <div align="center">
 
-# [![Easy Libcurl](logo.svg)](https://github.com/nktnet1/sync-request-curl)
+# [![Easy Libcurl](logo.svg)](https://github.com/nktnet1/easy-libcurl)
 
 Please support [@JCMais](https://github.com/JCMais)'s original work on [node-libcurl](https://github.com/JCMais/node-libcurl#building-on-windows)
+
+[![Try with Replit](https://replit.com/badge?caption=Try%20with%20Replit)](https://replit.com/@nktnet1/easy-libcurl-example#index.js)
 
 </div>
 
