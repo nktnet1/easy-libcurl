@@ -38,7 +38,7 @@
     "module_name": "node_libcurl",
     "module_path": "./lib/binding/",
     "remote_path": "./v2.3.4/",
-    "package_name": "{module_name}-v2.3.4-{node_abi}-{platform}-{arch}-{libc}.tar.gz",
+    "package_name": "{module_name}-v2.3.4-node-v102-{platform}-{arch}-{libc}.tar.gz",
     "host": "https://github.com/JCMais/node-libcurl/releases/download"
   },
   "scripts": {
