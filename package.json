@@ -1,6 +1,6 @@
 {
   "name": "easy-libcurl",
-  "version": "1.0.5",
+  "version": "0.0.0-vercel",
   "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean distributable, up-to-date and minimal dependencies.",
   "keywords": [
     "curl",
@@ -37,8 +37,8 @@
   "binary": {
     "module_name": "node_libcurl",
     "module_path": "./lib/binding/",
-    "remote_path": "./v3.0.0/",
-    "package_name": "{module_name}-v3.0.0-{node_abi}-{platform}-{arch}-{libc}.tar.gz",
+    "remote_path": "./v2.3.4/",
+    "package_name": "{module_name}-v2.3.4-{node_abi}-{platform}-{arch}-{libc}.tar.gz",
     "host": "https://github.com/JCMais/node-libcurl/releases/download"
   },
   "scripts": {
