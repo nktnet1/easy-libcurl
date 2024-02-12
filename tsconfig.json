@@ -20,7 +20,8 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["node_modules/@types"],
     "noUnusedLocals": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "skipLibCheck": true
   },
   "include": ["lib/**/*"],
   "exclude": ["node_modules"],

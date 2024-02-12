@@ -222,7 +222,7 @@ class Curl extends EventEmitter {
    *
    * See {@link enable | `enable`} and {@link disable | `disable`}
    */
-  protected features: CurlFeature = 0 as CurlFeature
+  protected features: CurlFeature = CurlFeature.Empty
 
   // these are for stream handling
   // the streams themselves
@@ -983,8 +983,8 @@ class Curl extends EventEmitter {
               handle.streamWriteFunctionShouldPause = true
               try {
                 handle.pause(CurlPause.RecvCont)
-              } catch (error: any) {
-                cb(error)
+              } catch (error) {
+                cb(error as Error)
                 return
               }
             }
