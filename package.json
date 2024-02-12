@@ -1,6 +1,6 @@
 {
   "name": "easy-libcurl",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Fork of JCMais/node-libcurl - exposes only Easy interface, clean distributable, up-to-date and minimal dependencies.",
   "keywords": [
     "curl",
