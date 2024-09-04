@@ -63,5 +63,5 @@ NAN_MODULE_INIT(Init) {
 #endif
 }
 
-NODE_MODULE(node_libcurl, Init);
+NAN_MODULE_WORKER_ENABLED(node_libcurl, Init);
 }  // namespace NodeLibcurl
